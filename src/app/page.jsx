@@ -136,7 +136,7 @@ const HomePage = () => {
 
       // Atraso de 4 segundos APÓS cada mensagem do bot, exceto o botão final
       if (msg.type !== "button") {
-        await new Promise((resolve) => setTimeout(resolve, 4000));
+        await new Promise((resolve) => setTimeout(resolve, 2500));
       }
     }
 
